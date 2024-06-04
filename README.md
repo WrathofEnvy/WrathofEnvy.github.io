@@ -1,2 +1,0 @@
-# WrathofEnvy.github.io
-Slutproject
