@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-size:30px;
+    background-color: #4CAF50;
+    color: rgb(96, 96, 252);
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 30px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.banner {
+    width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.content {
+    font-size: 25px;
+    padding: 0%;
+    color: white;
+    position: absolute; /* Add this to position content absolutely */
+    float: left; /* changes position */
+    left: 1%; /* also changes position (in the banner) */
+    top: 23%; /* also also changes position (in the banner) */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background for readability */
+    padding: 20px; /* Adds padding for better spacing */
+    border-radius: 10px; /* Adds rounded corners */
+}
+.content2{
+    font-size: 25px;
+    margin-top: 10%;
+    padding: 0%;
+    color: white;
+    position: absolute; /* Add this to position content absolutely */
+    float: left; /* changes position */
+    left: 1%; /* also changes position (in the banner) */
+    right: 59.7%;
+    top: 23%; /* also also changes position (in the banner) */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background for readability */
+    padding: 20px; /* Adds padding for better spacing */
+    border-radius: 10px; /* Adds rounded corners */
+}
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* Adjusts size as needed */
+    height: auto;
+    z-index: 1000; /* Ensure it stays on top */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
